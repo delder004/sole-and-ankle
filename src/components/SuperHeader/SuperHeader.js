@@ -28,7 +28,7 @@ const Wrapper = styled.div`
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
   gap: 24px;
-  padding: 8px;
+  padding: 0 32px;
   align-items: center;
   height: 40px;
 `;
@@ -36,7 +36,6 @@ const Wrapper = styled.div`
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
   margin-right: auto;
-  padding-left: 22px;
 `;
 
 const HelpLink = styled.a`

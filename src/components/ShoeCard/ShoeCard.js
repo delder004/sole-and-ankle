@@ -64,7 +64,7 @@ const ImageWrapper = styled.div`
 `;
 
 const Image = styled.img`
-  width: 340px;
+  width: 100%;
 `;
 
 const Row = styled.div`

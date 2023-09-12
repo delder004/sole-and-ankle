@@ -50,7 +50,7 @@ const Wrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
-  width: 248px;
+  flex-basis: 248px;
 `;
 
 const MainColumn = styled.div`
@@ -59,13 +59,13 @@ const MainColumn = styled.div`
 
 const Header = styled.header`
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-between;
 `;
 
 const Title = styled.h2`
   font-size: 1.5rem;
   font-weight: ${WEIGHTS.medium};
-  flex: 1;
 `;
 
 export default ShoeIndex;
